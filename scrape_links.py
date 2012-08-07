@@ -32,9 +32,13 @@ def get_links(center, distance):
         #print doc.toprettyxml()
 
         for node in doc.getElementsByTagName("pl"):
-            title = node.getAttribute('title')
-            print title
-            get_links(title,distance-1)
+            if str(node.getAttribute('ns')) == '0':
+                title = node.getAttribute('title')
+                if distance == 0:
+                    print '----' + title
+                else:
+                    print title
+                get_links(title,distance-1)
 
 
     

@@ -12,75 +12,44 @@
 
 import urllib
 from xml.dom import minidom
-#import networkx # have to install this for this code to run for graphs
-
+import networkx
 
 """
-Graph represented as a dictionary
-Where the key is the article, and the item is a list of articles
-that the article links to
+networkx graph
 """
-graph = {}
-
-"""find one path from start to end"""
-def find_path(graph, start, end, path=[]):
-    path = path + [start]
-    if start == end:
-        return path
-    if not graph.has_key(start):
-        return None
-    for node in graph[start]:
-        if node not in path:
-            newpath = find_path(graph, node, end, path)
-            if newpath: return newpath
-    return None
-
-"""returns a list of all possible paths from start to end"""
-def find_all_paths(graph, start, end, path=[]):
-    path = path + [start]
-    if start == end:
-        return [path]
-    if not graph.has_key(start):
-        return []
-    paths = []
-    for node in graph[start]:
-        if node not in path:
-            newpaths = find_all_paths(graph, node, end, path)
-            for newpath in newpaths:
-                paths.append(newpath)
-    return paths
+graph = networkx.Graph()
 
 """Populates graph"""
 def get_links(center, distance):
     # base case
-    if distance < 0:
+    if distance <= 0:
         return
     else:        
-        url_name = "http://en.wikipedia.org/w/api.php?action=query&titles=" + \
-                   center + "&prop=links&pllimit=500&format=xml"
+        file = "xml/%s.xml" % center
 
         # note: max pllimit (links to return) of 500 allowed
-        connection = urllib.urlopen(url_name)
-        doc = minidom.parse(connection)
-        connection.close()
+        # Open connection to URL
+        # connection = urllib.urlopen(url_name)
+        # doc = minidom.parse(connection)
+        # connection.close()
         
         # prints pretty version of xml
         #print doc.toprettyxml()
-        list_of_links = []
 
-        #only get first 50 of each article -- [:50]
-        for node in doc.getElementsByTagName("pl")[:50]:
+        xml_file = open(file)
+        doc = minidom.parse(xml_file)
+
+        graph.add_node(center)
+        print "Add node %s" % center
+        
+        for node in doc.getElementsByTagName("pl"):
             if str(node.getAttribute('ns')) == '0':
                 title = node.getAttribute('title')
-                list_of_links.append(title)
-                # if distance == 0:
-                #     print '----' + title
-                # else:
-                #     print title
-                get_links(title,distance-1)
+                graph.add_node(title)
+                print "Add node %s" % title
+                graph.add_edge(center, title)
+                print "Add edge %s --> %s" % (center, title)
 
-        
-        graph[center] = list_of_links
 
     
 if __name__ == '__main__':
@@ -89,10 +58,10 @@ if __name__ == '__main__':
     center_page_title = "Computer" # 'center' of graph
 
     max_distance = 1 # max "distance" away from center
-
+    print "Start"
     get_links(center_page_title, max_distance)
 
-    print "done"
+    print "Done"
 
 
     

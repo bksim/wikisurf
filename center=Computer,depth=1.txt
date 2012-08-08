@@ -1,0 +1,1009 @@
+Center article: Computer
+Depth: 1
+Time to analyze: 0.967136005544
+
+***Nodes (n = 501)***
+Optical disc
+Personal digital assistant
+Fortran
+Quantum computing
+Claude Shannon
+Turing-complete
+Analog computer
+Multiprocessing
+Institution of Engineering and Technology
+Keypunch
+Embarrassingly parallel
+DEC Alpha
+Herman Hollerith
+Text-based (computing)
+Digital audio
+GNOME
+Exploit (computer security)
+FreeDOS
+VAX
+Time 100: The Most Important People of the Century
+Electrical network
+Electrical engineering
+Conditional (programming)
+Tabulating machine
+Mozilla Foundation
+Time (magazine)
+COBOL
+MIT Press
+Museum of Science and Industry (Manchester)
+Motorola 68000
+Life magazine
+Computer-aided manufacturing
+Intel 4040
+Free software
+Spreadsheet
+Loom
+Asymmetric digital subscriber line
+Computer hardware
+Victoria University of Manchester
+Software engineering
+ARPANET
+Personal computer
+Slide rule
+3D computer graphics
+Logical disjunction
+Intel 8008
+Hard disk
+Information systems (discipline)
+Digital audio editor
+Aqua (user interface)
+1890 United States Census
+Low-level programming language
+Library (computing)
+International Federation for Information Processing
+Computer music
+Hans Meuer
+DirectX
+Java (programming language)
+Punched tape
+Hypertext Transfer Protocol
+IBM System/360
+Mobile computing
+Interactive fiction
+Motorola 6800
+Optical computing
+Real-time operating system
+Motorola 6809
+C (programming language)
+Malware scanner
+C standard library
+Microsoft Windows
+Multimedia
+Negation
+Computer multitasking
+Turing completeness
+Program counter
+DOS
+Raúl Rojas
+Arithmetic logic unit
+Memory (computers)
+Punched card
+Machine code
+Semiconductors
+Computer networking
+Moving Picture Experts Group
+Cryptanalysis
+Optical disc drive
+SPARC
+Vector processor
+Harvard architecture
+Advanced Micro Devices
+Computable function
+Logic gates
+Electronic calculator
+Digital audio player
+IBM 702
+IBM 701
+Ancient Greece
+Kermit (protocol)
+Intel 80486
+Bit
+Universal Serial Bus
+Assembler (computer programming)
+Vector graphics editor
+Dorr E. Felt
+Hero of Alexandria
+Intel 4004
+Billiard ball computer
+IBM
+JavaScript
+Digital
+Read-only memory
+FLOPS
+Smartphone
+Intel 8048
+IRIX
+Revision control
+Binary number
+Computability theory
+Non-volatile memory
+Subroutine
+Branch (computer science)
+SIMD
+TOP500
+ENIAC
+Electronic engineering
+Floating point
+Harvard Mark II
+Interpreted language
+Linux
+Educational game
+Pulse computation
+Computer Technology Limited
+Firmware
+Computer (disambiguation)
+Mainframe computer
+Two's complement
+Mobile device
+Natural language
+Scalar processor
+Logical conjunction
+Ruby (programming language)
+Oberon (operating system)
+Server (computing)
+Integer
+Execution (computing)
+Digital object identifier
+Computer-aided design
+Computer security
+Difference engine
+16-bit
+BUNCH
+Intel 80386
+Scripting language
+MS-DOS
+Plan 9 from Bell Labs
+Square root
+Norden bombsight
+Android (robot)
+Software bug
+Mouse (computing)
+Free Software Foundation
+Sabre (computer system)
+Generational list of programming languages
+Debugger
+List of computer term etymologies
+International Organization for Standardization
+Instruction set
+Antikythera mechanism
+First-person shooter
+Computer program
+Association for Computing Machinery
+Application software
+Perl
+Audio player (software)
+Truth value
+Routing
+Comment (computer programming)
+Stack machine
+Semi Automatic Ground Environment
+PDP-8
+Church–Turing thesis
+Renaissance
+Computer simulation
+Portable computer
+Konrad Zuse
+Data (computing)
+Strategy game
+Random-access memory
+86-DOS
+MOS Technology 6502
+Mechanical calculator
+E-mail client
+Presentation program
+High-level programming language
+Calculator
+Association for Information Systems
+Vacuum tube
+Computation
+Pentium FDIV bug
+DNA computing
+Computer insecurity
+Microphone
+Laptop
+IBM System/36
+IBM System/32
+User interface
+Internet Society
+Microprocessor
+Ternary computer
+George Stibitz
+Serious game
+Computer data storage
+Comparison of Linux distributions
+Command-line interface
+Fiber distributed data interface
+IBM PC DOS
+Protocol (computing)
+Nikolay Brusentsov
+Euclidean vector
+PA-RISC
+Internet Protocol Suite
+Package management system
+Matrix (mathematics)
+Machine learning
+Computer programming
+Database management system
+CSIRAC
+Industrial robot
+Joystick
+Regenerative capacitor memory
+CPU cache
+Mail transfer agent
+Museum of Science and Industry in Manchester
+Unix
+Control flow
+Input/output
+Real number
+Pascal (programming language)
+Standard Template Library
+Cray
+Internet Engineering Task Force
+BASIC
+Photonic computing
+DARPA
+Software configuration management
+Microsequencer
+Tablet computer
+Cellular automaton
+Decimal
+Non-Uniform Memory Access
+File manager
+IBM 604
+C++
+DR-DOS
+Computer engineering
+Netbook
+Mac OS
+Antivirus software
+64-bit
+4-bit
+Ballistic Research Laboratory
+Information Age
+List of fictional computers
+Intel 8051
+Tommy Flowers
+John von Neumann
+RS-232
+Optical engineering
+OpenGL
+MIPS architecture
+Lisp (programming language)
+Image scanner
+Unconventional computing
+CPU design
+Manchester Mark 1
+Ferranti Mercury
+Die (integrated circuit)
+Time Magazine
+Cluster (computing)
+HTML
+Handheld video game
+Accounting software
+Intel 80486DX2
+Bluebottle OS
+Interrupt
+Byte
+Apache Software Foundation
+Remington Rand 409
+Opcode
+Embedded system
+Jacquard loom
+Soviet
+Charles Babbage
+Installation (computer programs)
+Computational science
+Moors
+Computer animation
+Imperative programming language
+Computer network
+Maynard, Massachusetts
+Adder (electronics)
+Science Museum (London)
+Home computer
+Computer software
+Boolean algebra (logic)
+Graphics processing unit
+Hang (computing)
+Minicomputer
+Control unit
+Integrated development environment
+Photolithography
+Portable Network Graphics
+Boolean logic
+List of BSD operating systems
+Massively multiplayer online game
+RAM machine
+Joseph Marie Jacquard
+File format
+RAM
+EDVAC
+Colossus computer
+Computer graphics
+Register machine
+International Standard Book Number
+KDE
+Object Pascal
+Supercomputer
+Hard disk drive
+Aberdeen Proving Ground
+Shor's algorithm
+SCSI
+Edutainment
+Stored-program computer
+Berkeley Software Distribution
+Interpreter (computing)
+ARM architecture
+United States Army
+Bus (computing)
+IBM System i
+SunOS
+Roger Bacon
+QNX
+Moscow State University
+Turing complete
+Human–computer interaction
+Python (programming language)
+GNU
+Thomas Aquinas
+Puzzle video game
+Cellular architecture
+Semiconductor
+Rendering (computer graphics)
+Text editor
+MIMD
+Spintronics
+Magnetic core memory
+Computer technology
+Howard Aiken
+Ada (programming language)
+Timeline of programming languages
+Alan Turing
+Common Desktop Environment
+Office suite
+Computer
+PDP-11
+Integrated circuit
+UNIVAC I
+Operating system
+Commodity
+Electromagnet
+Exclusive or
+Binary numeral system
+JPEG
+Asynchronous Transfer Mode
+Trigonometry
+Mnemonic
+Digital Equipment Corporation
+Peripheral
+Institute of Electrical and Electronics Engineers
+Turing machine
+Intel Core 2
+Programmer
+Image processing
+Harvard Mark I
+PowerPC
+Booting
+Quantum computer
+PHP
+Computer science
+Internet
+Non-English-based programming languages
+Electronic Delay Storage Automatic Calculator
+Instant messaging
+C Sharp (programming language)
+List of Linux distributions
+Astrolabe
+Analog signal
+IBM 7080
+Icon
+Intel 8088
+Amoeba distributed operating system
+Intel 8080
+Conventional PCI
+Simple Mail Transfer Protocol
+Instruction (computer science)
+Graphics tablet
+Setun
+3D computer graphics software
+Keyboard (computing)
+Ethernet
+Transistors
+Computing
+Pope Sylvester II
+Flash memory
+Logic gate
+Superscalar
+Microcode
+Compiler
+Battery (electricity)
+Solaris (operating system)
+Computer monitor
+Telecommunications engineering
+Printer (computing)
+Graphical Environment Manager
+Fighter aircraft
+List of programming languages
+Artificial intelligence
+Cryptography
+Multi-core
+Transistor
+Glossary of computers
+Intel Corporation
+Teleprinter
+HP-UX
+Algorithm
+University of Manchester
+Open source software
+Personal computer hardware
+Flight simulator
+Software synthesizer
+Ferranti Pegasus
+Software performance analysis
+Desktop publishing
+Chemical computer
+OpenAL
+Bourne shell
+IBM 650
+Jack Dongarra
+First Draft of a Report on the EDVAC
+Electromechanics
+Manchester Small-Scale Experimental Machine
+Analytical engine
+List of vacuum tube computers
+32-bit
+Sergei Sobolev
+Embedded operating system
+John Atanasoff
+Mac OS X
+Microcontroller
+BIOS
+International Electrotechnical Commission
+Nanoengineering
+List of programming languages by category
+Grace Hopper
+Raster graphics editor
+Crash (computing)
+Analog computers
+Pascal's calculator
+Video editing
+Assembly language
+UNIX System V
+Pentium
+8-bit
+Albertus Magnus
+Desktop computer
+List of operating systems
+British Computer Society
+History of computing hardware
+Graphical user interface
+Electronics
+Programming language
+Central processing unit
+Text user interface
+Athlon 64
+Floppy disk
+Atanasoff–Berry Computer
+Rear Admiral
+Abacus
+Project Apollo
+IBM 7090
+American National Standards Institute
+Computer speaker
+Computer architecture
+Mechanical computer
+Processor register
+File Transfer Protocol
+IBM PC compatible
+Platform game
+IBM AIX
+Clifford Berry
+
+
+***Edges (n = 500)***
+('Computer', 'Optical disc')
+('Computer', 'Personal digital assistant')
+('Computer', 'Fortran')
+('Computer', 'Quantum computing')
+('Computer', 'Claude Shannon')
+('Computer', 'Turing-complete')
+('Computer', 'Analog computer')
+('Computer', 'Multiprocessing')
+('Computer', 'Institution of Engineering and Technology')
+('Computer', 'Keypunch')
+('Computer', 'Embarrassingly parallel')
+('Computer', 'DEC Alpha')
+('Computer', 'Herman Hollerith')
+('Computer', 'Text-based (computing)')
+('Computer', 'Digital audio')
+('Computer', 'GNOME')
+('Computer', 'Exploit (computer security)')
+('Computer', 'FreeDOS')
+('Computer', 'VAX')
+('Computer', 'Time 100: The Most Important People of the Century')
+('Computer', 'Electrical network')
+('Computer', 'Electrical engineering')
+('Computer', 'Conditional (programming)')
+('Computer', 'Tabulating machine')
+('Computer', 'Mozilla Foundation')
+('Computer', 'Time (magazine)')
+('Computer', 'COBOL')
+('Computer', 'MIT Press')
+('Computer', 'Museum of Science and Industry (Manchester)')
+('Computer', 'Motorola 68000')
+('Computer', 'Life magazine')
+('Computer', 'Computer-aided manufacturing')
+('Computer', 'Intel 4040')
+('Computer', 'Free software')
+('Computer', 'Spreadsheet')
+('Computer', 'Loom')
+('Computer', 'Asymmetric digital subscriber line')
+('Computer', 'Computer hardware')
+('Computer', 'Victoria University of Manchester')
+('Computer', 'Software engineering')
+('Computer', 'ARPANET')
+('Computer', 'Personal computer')
+('Computer', 'Slide rule')
+('Computer', '3D computer graphics')
+('Computer', 'Logical disjunction')
+('Computer', 'Intel 8008')
+('Computer', 'Hard disk')
+('Computer', 'Information systems (discipline)')
+('Computer', 'Digital audio editor')
+('Computer', 'Aqua (user interface)')
+('Computer', '1890 United States Census')
+('Computer', 'Low-level programming language')
+('Computer', 'Library (computing)')
+('Computer', 'International Federation for Information Processing')
+('Computer', 'Computer music')
+('Computer', 'Hans Meuer')
+('Computer', 'DirectX')
+('Computer', 'Java (programming language)')
+('Computer', 'Punched tape')
+('Computer', 'Hypertext Transfer Protocol')
+('Computer', 'IBM System/360')
+('Computer', 'Mobile computing')
+('Computer', 'Interactive fiction')
+('Computer', 'Motorola 6800')
+('Computer', 'Optical computing')
+('Computer', 'Real-time operating system')
+('Computer', 'Motorola 6809')
+('Computer', 'C (programming language)')
+('Computer', 'Malware scanner')
+('Computer', 'C standard library')
+('Computer', 'Microsoft Windows')
+('Computer', 'Multimedia')
+('Computer', 'Negation')
+('Computer', 'Computer multitasking')
+('Computer', 'Turing completeness')
+('Computer', 'Program counter')
+('Computer', 'DOS')
+('Computer', 'Ra\xc3\xbal Rojas')
+('Computer', 'Arithmetic logic unit')
+('Computer', 'Memory (computers)')
+('Computer', 'Punched card')
+('Computer', 'Machine code')
+('Computer', 'Semiconductors')
+('Computer', 'Computer networking')
+('Computer', 'Moving Picture Experts Group')
+('Computer', 'Cryptanalysis')
+('Computer', 'Optical disc drive')
+('Computer', 'SPARC')
+('Computer', 'Vector processor')
+('Computer', 'Harvard architecture')
+('Computer', 'Advanced Micro Devices')
+('Computer', 'Computable function')
+('Computer', 'Logic gates')
+('Computer', 'Electronic calculator')
+('Computer', 'Digital audio player')
+('Computer', 'IBM 702')
+('Computer', 'IBM 701')
+('Computer', 'Ancient Greece')
+('Computer', 'Kermit (protocol)')
+('Computer', 'Intel 80486')
+('Computer', 'Bit')
+('Computer', 'Universal Serial Bus')
+('Computer', 'Assembler (computer programming)')
+('Computer', 'Vector graphics editor')
+('Computer', 'Dorr E. Felt')
+('Computer', 'Hero of Alexandria')
+('Computer', 'Intel 4004')
+('Computer', 'Billiard ball computer')
+('Computer', 'IBM')
+('Computer', 'JavaScript')
+('Computer', 'Digital')
+('Computer', 'Read-only memory')
+('Computer', 'FLOPS')
+('Computer', 'Smartphone')
+('Computer', 'Intel 8048')
+('Computer', 'IRIX')
+('Computer', 'Revision control')
+('Computer', 'Binary number')
+('Computer', 'Computability theory')
+('Computer', 'Non-volatile memory')
+('Computer', 'Subroutine')
+('Computer', 'Branch (computer science)')
+('Computer', 'SIMD')
+('Computer', 'TOP500')
+('Computer', 'ENIAC')
+('Computer', 'Electronic engineering')
+('Computer', 'Floating point')
+('Computer', 'Harvard Mark II')
+('Computer', 'Interpreted language')
+('Computer', 'Linux')
+('Computer', 'Educational game')
+('Computer', 'Pulse computation')
+('Computer', 'Computer Technology Limited')
+('Computer', 'Firmware')
+('Computer', 'Computer (disambiguation)')
+('Computer', 'Mainframe computer')
+('Computer', "Two's complement")
+('Computer', 'Mobile device')
+('Computer', 'Natural language')
+('Computer', 'Scalar processor')
+('Computer', 'Logical conjunction')
+('Computer', 'Ruby (programming language)')
+('Computer', 'Oberon (operating system)')
+('Computer', 'Server (computing)')
+('Computer', 'Integer')
+('Computer', 'Execution (computing)')
+('Computer', 'Digital object identifier')
+('Computer', 'Computer-aided design')
+('Computer', 'Computer security')
+('Computer', 'Difference engine')
+('Computer', '16-bit')
+('Computer', 'BUNCH')
+('Computer', 'Intel 80386')
+('Computer', 'Scripting language')
+('Computer', 'MS-DOS')
+('Computer', 'Plan 9 from Bell Labs')
+('Computer', 'Square root')
+('Computer', 'Norden bombsight')
+('Computer', 'Android (robot)')
+('Computer', 'Software bug')
+('Computer', 'Mouse (computing)')
+('Computer', 'Free Software Foundation')
+('Computer', 'Sabre (computer system)')
+('Computer', 'Generational list of programming languages')
+('Computer', 'Debugger')
+('Computer', 'List of computer term etymologies')
+('Computer', 'International Organization for Standardization')
+('Computer', 'Instruction set')
+('Computer', 'Antikythera mechanism')
+('Computer', 'First-person shooter')
+('Computer', 'Computer program')
+('Computer', 'Association for Computing Machinery')
+('Computer', 'Application software')
+('Computer', 'Perl')
+('Computer', 'Audio player (software)')
+('Computer', 'Truth value')
+('Computer', 'Routing')
+('Computer', 'Comment (computer programming)')
+('Computer', 'Stack machine')
+('Computer', 'Semi Automatic Ground Environment')
+('Computer', 'PDP-8')
+('Computer', 'Church\xe2\x80\x93Turing thesis')
+('Computer', 'Renaissance')
+('Computer', 'Computer simulation')
+('Computer', 'Portable computer')
+('Computer', 'Konrad Zuse')
+('Computer', 'Data (computing)')
+('Computer', 'Strategy game')
+('Computer', 'Random-access memory')
+('Computer', '86-DOS')
+('Computer', 'MOS Technology 6502')
+('Computer', 'Mechanical calculator')
+('Computer', 'E-mail client')
+('Computer', 'Presentation program')
+('Computer', 'High-level programming language')
+('Computer', 'Calculator')
+('Computer', 'Association for Information Systems')
+('Computer', 'Vacuum tube')
+('Computer', 'Computation')
+('Computer', 'Pentium FDIV bug')
+('Computer', 'DNA computing')
+('Computer', 'Computer insecurity')
+('Computer', 'Microphone')
+('Computer', 'Laptop')
+('Computer', 'IBM System/36')
+('Computer', 'IBM System/32')
+('Computer', 'User interface')
+('Computer', 'Internet Society')
+('Computer', 'Microprocessor')
+('Computer', 'Ternary computer')
+('Computer', 'George Stibitz')
+('Computer', 'Serious game')
+('Computer', 'Computer data storage')
+('Computer', 'Comparison of Linux distributions')
+('Computer', 'Command-line interface')
+('Computer', 'Fiber distributed data interface')
+('Computer', 'IBM PC DOS')
+('Computer', 'Protocol (computing)')
+('Computer', 'Nikolay Brusentsov')
+('Computer', 'Euclidean vector')
+('Computer', 'PA-RISC')
+('Computer', 'Internet Protocol Suite')
+('Computer', 'Package management system')
+('Computer', 'Matrix (mathematics)')
+('Computer', 'Machine learning')
+('Computer', 'Computer programming')
+('Computer', 'Database management system')
+('Computer', 'CSIRAC')
+('Computer', 'Industrial robot')
+('Computer', 'Joystick')
+('Computer', 'Regenerative capacitor memory')
+('Computer', 'CPU cache')
+('Computer', 'Mail transfer agent')
+('Computer', 'Museum of Science and Industry in Manchester')
+('Computer', 'Unix')
+('Computer', 'Control flow')
+('Computer', 'Input/output')
+('Computer', 'Real number')
+('Computer', 'Pascal (programming language)')
+('Computer', 'Standard Template Library')
+('Computer', 'Cray')
+('Computer', 'Internet Engineering Task Force')
+('Computer', 'BASIC')
+('Computer', 'Photonic computing')
+('Computer', 'DARPA')
+('Computer', 'Software configuration management')
+('Computer', 'Microsequencer')
+('Computer', 'Tablet computer')
+('Computer', 'Cellular automaton')
+('Computer', 'Decimal')
+('Computer', 'Non-Uniform Memory Access')
+('Computer', 'File manager')
+('Computer', 'IBM 604')
+('Computer', 'C++')
+('Computer', 'DR-DOS')
+('Computer', 'Computer engineering')
+('Computer', 'Netbook')
+('Computer', 'Mac OS')
+('Computer', 'Antivirus software')
+('Computer', '64-bit')
+('Computer', '4-bit')
+('Computer', 'Ballistic Research Laboratory')
+('Computer', 'Information Age')
+('Computer', 'List of fictional computers')
+('Computer', 'Intel 8051')
+('Computer', 'Tommy Flowers')
+('Computer', 'John von Neumann')
+('Computer', 'RS-232')
+('Computer', 'Optical engineering')
+('Computer', 'OpenGL')
+('Computer', 'MIPS architecture')
+('Computer', 'Lisp (programming language)')
+('Computer', 'Image scanner')
+('Computer', 'Unconventional computing')
+('Computer', 'CPU design')
+('Computer', 'Manchester Mark 1')
+('Computer', 'Ferranti Mercury')
+('Computer', 'Die (integrated circuit)')
+('Computer', 'Time Magazine')
+('Computer', 'Cluster (computing)')
+('Computer', 'HTML')
+('Computer', 'Handheld video game')
+('Computer', 'Accounting software')
+('Computer', 'Intel 80486DX2')
+('Computer', 'Bluebottle OS')
+('Computer', 'Interrupt')
+('Computer', 'Byte')
+('Computer', 'Apache Software Foundation')
+('Computer', 'Remington Rand 409')
+('Computer', 'Opcode')
+('Computer', 'Embedded system')
+('Computer', 'Jacquard loom')
+('Computer', 'Soviet')
+('Computer', 'Charles Babbage')
+('Computer', 'Installation (computer programs)')
+('Computer', 'Computational science')
+('Computer', 'Moors')
+('Computer', 'Computer animation')
+('Computer', 'Imperative programming language')
+('Computer', 'Computer network')
+('Computer', 'Maynard, Massachusetts')
+('Computer', 'Adder (electronics)')
+('Computer', 'Science Museum (London)')
+('Computer', 'Home computer')
+('Computer', 'Computer software')
+('Computer', 'Boolean algebra (logic)')
+('Computer', 'Graphics processing unit')
+('Computer', 'Hang (computing)')
+('Computer', 'Minicomputer')
+('Computer', 'Control unit')
+('Computer', 'Integrated development environment')
+('Computer', 'Photolithography')
+('Computer', 'Portable Network Graphics')
+('Computer', 'Boolean logic')
+('Computer', 'List of BSD operating systems')
+('Computer', 'Massively multiplayer online game')
+('Computer', 'RAM machine')
+('Computer', 'Joseph Marie Jacquard')
+('Computer', 'File format')
+('Computer', 'RAM')
+('Computer', 'EDVAC')
+('Computer', 'Colossus computer')
+('Computer', 'Computer graphics')
+('Computer', 'Register machine')
+('Computer', 'International Standard Book Number')
+('Computer', 'KDE')
+('Computer', 'Object Pascal')
+('Computer', 'Supercomputer')
+('Computer', 'Hard disk drive')
+('Computer', 'Aberdeen Proving Ground')
+('Computer', "Shor's algorithm")
+('Computer', 'SCSI')
+('Computer', 'Edutainment')
+('Computer', 'Stored-program computer')
+('Computer', 'Berkeley Software Distribution')
+('Computer', 'Interpreter (computing)')
+('Computer', 'ARM architecture')
+('Computer', 'United States Army')
+('Computer', 'Bus (computing)')
+('Computer', 'IBM System i')
+('Computer', 'SunOS')
+('Computer', 'Roger Bacon')
+('Computer', 'QNX')
+('Computer', 'Moscow State University')
+('Computer', 'Turing complete')
+('Computer', 'Human\xe2\x80\x93computer interaction')
+('Computer', 'Python (programming language)')
+('Computer', 'GNU')
+('Computer', 'Thomas Aquinas')
+('Computer', 'Puzzle video game')
+('Computer', 'Cellular architecture')
+('Computer', 'Semiconductor')
+('Computer', 'Rendering (computer graphics)')
+('Computer', 'Text editor')
+('Computer', 'MIMD')
+('Computer', 'Spintronics')
+('Computer', 'Magnetic core memory')
+('Computer', 'Computer technology')
+('Computer', 'Howard Aiken')
+('Computer', 'Ada (programming language)')
+('Computer', 'Timeline of programming languages')
+('Computer', 'Alan Turing')
+('Computer', 'Common Desktop Environment')
+('Computer', 'Office suite')
+('Computer', 'PDP-11')
+('Computer', 'Integrated circuit')
+('Computer', 'UNIVAC I')
+('Computer', 'Operating system')
+('Computer', 'Commodity')
+('Computer', 'Electromagnet')
+('Computer', 'Exclusive or')
+('Computer', 'Binary numeral system')
+('Computer', 'JPEG')
+('Computer', 'Asynchronous Transfer Mode')
+('Computer', 'Trigonometry')
+('Computer', 'Mnemonic')
+('Computer', 'Digital Equipment Corporation')
+('Computer', 'Peripheral')
+('Computer', 'Institute of Electrical and Electronics Engineers')
+('Computer', 'Turing machine')
+('Computer', 'Intel Core 2')
+('Computer', 'Programmer')
+('Computer', 'Image processing')
+('Computer', 'Harvard Mark I')
+('Computer', 'PowerPC')
+('Computer', 'Booting')
+('Computer', 'Quantum computer')
+('Computer', 'PHP')
+('Computer', 'Computer science')
+('Computer', 'Internet')
+('Computer', 'Non-English-based programming languages')
+('Computer', 'Electronic Delay Storage Automatic Calculator')
+('Computer', 'Instant messaging')
+('Computer', 'C Sharp (programming language)')
+('Computer', 'List of Linux distributions')
+('Computer', 'Astrolabe')
+('Computer', 'Analog signal')
+('Computer', 'IBM 7080')
+('Computer', 'Icon')
+('Computer', 'Intel 8088')
+('Computer', 'Amoeba distributed operating system')
+('Computer', 'Intel 8080')
+('Computer', 'Conventional PCI')
+('Computer', 'Simple Mail Transfer Protocol')
+('Computer', 'Instruction (computer science)')
+('Computer', 'Graphics tablet')
+('Computer', 'Setun')
+('Computer', '3D computer graphics software')
+('Computer', 'Keyboard (computing)')
+('Computer', 'Ethernet')
+('Computer', 'Transistors')
+('Computer', 'Computing')
+('Computer', 'Pope Sylvester II')
+('Computer', 'Flash memory')
+('Computer', 'Logic gate')
+('Computer', 'Superscalar')
+('Computer', 'Microcode')
+('Computer', 'Compiler')
+('Computer', 'Battery (electricity)')
+('Computer', 'Solaris (operating system)')
+('Computer', 'Computer monitor')
+('Computer', 'Telecommunications engineering')
+('Computer', 'Printer (computing)')
+('Computer', 'Graphical Environment Manager')
+('Computer', 'Fighter aircraft')
+('Computer', 'List of programming languages')
+('Computer', 'Artificial intelligence')
+('Computer', 'Cryptography')
+('Computer', 'Multi-core')
+('Computer', 'Transistor')
+('Computer', 'Glossary of computers')
+('Computer', 'Intel Corporation')
+('Computer', 'Teleprinter')
+('Computer', 'HP-UX')
+('Computer', 'Algorithm')
+('Computer', 'University of Manchester')
+('Computer', 'Open source software')
+('Computer', 'Personal computer hardware')
+('Computer', 'Flight simulator')
+('Computer', 'Software synthesizer')
+('Computer', 'Ferranti Pegasus')
+('Computer', 'Software performance analysis')
+('Computer', 'Desktop publishing')
+('Computer', 'Chemical computer')
+('Computer', 'OpenAL')
+('Computer', 'Bourne shell')
+('Computer', 'IBM 650')
+('Computer', 'Jack Dongarra')
+('Computer', 'First Draft of a Report on the EDVAC')
+('Computer', 'Electromechanics')
+('Computer', 'Manchester Small-Scale Experimental Machine')
+('Computer', 'Analytical engine')
+('Computer', 'List of vacuum tube computers')
+('Computer', '32-bit')
+('Computer', 'Sergei Sobolev')
+('Computer', 'Embedded operating system')
+('Computer', 'John Atanasoff')
+('Computer', 'Mac OS X')
+('Computer', 'Microcontroller')
+('Computer', 'BIOS')
+('Computer', 'International Electrotechnical Commission')
+('Computer', 'Nanoengineering')
+('Computer', 'List of programming languages by category')
+('Computer', 'Grace Hopper')
+('Computer', 'Raster graphics editor')
+('Computer', 'Crash (computing)')
+('Computer', 'Analog computers')
+('Computer', "Pascal's calculator")
+('Computer', 'Video editing')
+('Computer', 'Assembly language')
+('Computer', 'UNIX System V')
+('Computer', 'Pentium')
+('Computer', '8-bit')
+('Computer', 'Albertus Magnus')
+('Computer', 'Desktop computer')
+('Computer', 'List of operating systems')
+('Computer', 'British Computer Society')
+('Computer', 'History of computing hardware')
+('Computer', 'Graphical user interface')
+('Computer', 'Electronics')
+('Computer', 'Programming language')
+('Computer', 'Central processing unit')
+('Computer', 'Text user interface')
+('Computer', 'Athlon 64')
+('Computer', 'Floppy disk')
+('Computer', 'Atanasoff\xe2\x80\x93Berry Computer')
+('Computer', 'Rear Admiral')
+('Computer', 'Abacus')
+('Computer', 'Project Apollo')
+('Computer', 'IBM 7090')
+('Computer', 'American National Standards Institute')
+('Computer', 'Computer speaker')
+('Computer', 'Computer architecture')
+('Computer', 'Mechanical computer')
+('Computer', 'Processor register')
+('Computer', 'File Transfer Protocol')
+('Computer', 'IBM PC compatible')
+('Computer', 'Platform game')
+('Computer', 'IBM AIX')
+('Computer', 'Clifford Berry')

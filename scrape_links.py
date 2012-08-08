@@ -14,7 +14,7 @@ import urllib
 from xml.dom import minidom
 import time
 import networkx as nx # have to install this for this code to run for graphs
-
+import simplejson as json
 
 def get_links(center, depth):
     global graph #edits the global graph
@@ -46,7 +46,7 @@ if __name__ == '__main__':
     ############ variables to change ################
     
     center_page_title = "Computer" # 'center' of graph
-    depth = 2 # max "distance" away from center
+    depth = 1 # max "distance" away from center
 
     ############ end variables to change ############
 
@@ -72,8 +72,23 @@ if __name__ == '__main__':
     for edge in graph.edges():
         out.write(str(edge) + "\n")
     out.close()
+
     print "done"
 
 
 
-    
+def output_json(G, fname):
+    dic={}
+    node_dict = {}
+    for node in G.nodes():
+        node_dict[node] = {'shape':'dot', 'label':node, 'link':'http://en.wikipedia.org/wiki/%s' % node}
+        
+    dic['nodes'] = node_dict
+
+    edge_dict = {}
+    for node in G.nodes():
+        edge_dict[node] = G[node]
+
+    dic['edges'] = edge_dict
+
+    json.dump(dic, open(fname, 'w'), indent=2)

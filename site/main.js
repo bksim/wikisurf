@@ -127,15 +127,20 @@
   }    
 
   $(document).ready(function(){
-    var sys = arbor.ParticleSystem(1000, 600, 0.5) // create the system with sensible repulsion/stiffness/friction
+    //var sys = arbor.ParticleSystem(1000, 600, 0.5) // create the system with sensible repulsion/stiffness/friction
+	var sys = arbor.ParticleSystem(1000, 0, 0.5)
     sys.parameters({gravity:true}) // use center-gravity to make the graph settle nicely (ymmv)
     sys.renderer = Renderer("#viewport") // our newly created renderer will have its .init() method called shortly by sys...
-
-    // add some nodes with json. should write a python script to format data into this format..pseudocode:
-	// for node in nodes:
-	//   node.name:{'label':node.name,'link':http://en.wikipedia.org/wiki/ + node.name},
-	// ...
-	// add nodes first with json and edges later
+	
+	// get data variable through an ajax call to URL <article_name>/<depth>
+	
+	var article_name = "Computer";
+	var depth = 1;
+	$.getJSON(article_name + "/" + depth.toString(), function(json) 
+		{
+			var data = json;
+		}
+	);
 	
 	/*
 	var data = 
@@ -155,6 +160,7 @@
 		}
 	};*/
 	
+	/*
 	var data = 
 	{
 		nodes:
@@ -3169,7 +3175,7 @@
       "IBM AIX": {},
       "Clifford Berry": {}}
     }
-	};
+	};*/
 
   sys.graft(data);
 

@@ -5,13 +5,14 @@ Visualize wikipedia content as a graph.
 Usage
 -----------
 
-Install flask
-'''
+Install flask:
+
+```
 pip install Flask
-'''
+```
 
 To Run:
 
-'''
+```
 python site/wikisurf.py
-'''
+```

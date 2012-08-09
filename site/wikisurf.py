@@ -1,6 +1,7 @@
 from flask import Flask, render_template, jsonify
 from parse import *
 import networkx as nx
+from flaskext.csrf import csrf, csrf_exempt
 
 app = Flask(__name__)
 
@@ -8,6 +9,7 @@ app = Flask(__name__)
 def main_page():
 	return render_template('index.html')
 
+@csrf_exempt
 @app.route('/<article>/<depth>')
 def get_article(article, depth):
 	center_page_title = article.encode('utf-8')

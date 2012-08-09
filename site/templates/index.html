@@ -3,12 +3,15 @@
 
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>arbor.js project template</title>
-	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
+      <div>
+      <h1>wikisurf</h1>
+    </div>
 </head>
 <body>
-  <canvas id="viewport" width="1024" height="768"></canvas>
+    <p>Welcome to wikisurf, a wikipedia visualization.</p>
+  <canvas id="viewport" width="1500" height="1000"></canvas>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
@@ -31,4 +34,5 @@
   <script src="{{ url_for('static', filename='main.js') }}"></script>
 
 </body>
+  <footer>Brandon and Ayzaan</footer>
 </html>

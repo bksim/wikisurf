@@ -46,7 +46,7 @@ if __name__ == '__main__':
     ############ variables to change ################
     
     center_page_title = "Alex_Morgan" # 'center' of graph
-    depth = 2 # max "distance" away from center
+    depth = 1 # max "distance" away from center
 
     ############ end variables to change ############
 

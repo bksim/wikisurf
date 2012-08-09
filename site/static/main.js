@@ -66,9 +66,9 @@
           var w = 10
           ctx.fillStyle = (node.data.alone) ? "orange" : "black"
           ctx.fillRect(pt.x-w/2, pt.y-w/2, w,w)
-      ctx.font = 'italic 13px sans-serif';
-      ctx.fillText(node.name, pt.x+8, pt.y+8);
-        })          
+		  ctx.font = 'italic 13px sans-serif';
+		  ctx.fillText(node.name, pt.x+8, pt.y+8);
+        })    			
       },
       
       initMouseHandling:function(){
@@ -128,21 +128,26 @@
 
   $(document).ready(function(){
     //var sys = arbor.ParticleSystem(1000, 600, 0.5) // create the system with sensible repulsion/stiffness/friction
-  var sys = arbor.ParticleSystem(1000, 0, 0.5)
+	var sys = arbor.ParticleSystem(1000, 0, 0.5)
     sys.parameters({gravity:true}) // use center-gravity to make the graph settle nicely (ymmv)
     sys.renderer = Renderer("#viewport") // our newly created renderer will have its .init() method called shortly by sys...
+	
+	// get data variable through an ajax call to URL <article_name>/<depth>
+	
+	var article_name = "Sweet Diss and the Comebacks";
+	var depth = 1;
 
-  // get data variable through an ajax call to URL <article_name>/<depth>
+	$.getJSON("/" + article_name + "/" + depth.toString(), function(json) 
+		{
+			var data = json;
+      var g_edges = json.edges;
+      var graph = {edges:g_edges};
+      console.log(JSON.stringify(g_edges));
+      sys.graft(graph);
+		}
+	);
 
-  var article_name = "Computer";
-  var depth = 1;
-  $.getJSON(article_name + "/" + depth.toString(), function(json) 
-    {
-      var data = json;
-    }
-  );
-
-  sys.graft(data);
+  
 
 
     

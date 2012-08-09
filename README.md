@@ -6,8 +6,12 @@ Usage
 -----------
 
 Install flask
-'pip install Flask'
+'''
+pip install Flask
+'''
 
 To Run:
 
-'python site/wikisurf.py'
+'''
+python site/wikisurf.py
+'''

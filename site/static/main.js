@@ -136,7 +136,7 @@
 	
 	var article_name = "Computer";
 	var depth = 1;
-	$.getJSON(article_name + "/" + depth.toString(), function(json) 
+	$.getJSON("localhost:5000/" + article_name + "/" + depth.toString(), function(json) 
 		{
 			var data = json;
 		}

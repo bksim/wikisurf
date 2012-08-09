@@ -134,15 +134,15 @@
 	
 	// get data variable through an ajax call to URL <article_name>/<depth>
 	
-	var article_name = "Computer";
+	var article_name = "Sweet Diss and the Comebacks";
 	var depth = 1;
 
-	$.getJSON("http://localhost:8000/" + article_name + "/" + depth.toString(), function(json) 
+	$.getJSON("/" + article_name + "/" + depth.toString(), function(json) 
 		{
 			var data = json;
-      var g_nodes = json.nodes;
       var g_edges = json.edges;
-      var graph = {nodes: g_nodes, edges:g_edges};
+      var graph = {edges:g_edges};
+      console.log(JSON.stringify(g_edges));
       sys.graft(graph);
 		}
 	);

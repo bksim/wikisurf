@@ -1,10 +1,10 @@
 from flask import Flask, render_template, jsonify
 from parse import *
 import networkx as nx
-#from flaskext.csrf import csrf, csrf_exempt
+from flaskext.csrf import csrf, csrf_exempt
 
 app = Flask(__name__)
-#csrf(app)
+
 
 @app.route('/')
 def main_page():
@@ -16,10 +16,11 @@ def get_article(article, depth):
 	graph_depth = int(depth)
 
 	graph = get_graph(center_page_title, graph_depth)
-	graph_json = output_json(graph)
+	graph_json = output_arbor_json(graph)
 
 	return jsonify(graph_json)
 	
 
 if __name__ == '__main__':
-	app.run(debug=True,port=8000)
+	app.run(debug=True)
+	csrf(app)

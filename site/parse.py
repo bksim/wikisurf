@@ -23,14 +23,15 @@ def get_graph(center, depth):
 
     graph = nx.DiGraph() 
 
-    print ('Getting %s graph' % center)
+    #print ('Getting %s graph' % center)
     # base case
     if depth <= 0:
         return
     else:        
         url_name = "http://en.wikipedia.org/w/api.php?action=query&titles=" + \
-                   center + "&prop=links&pllimit=500&format=xml"
+                    center + "&prop=links&pllimit=500&format=xml"
         
+
         #For local testing because my urllib times out
         #url_name = 'http://localhost:8000/com.xml/'
         print('Loaded URL')
@@ -52,17 +53,12 @@ def get_graph(center, depth):
     return graph
 
 
-def output_json(G):
+def output_arbor_json(G):
     dic={}
-    node_dict = {}
-    for node in G.nodes():
-        node_dict[node] = {'shape':'dot', 'label':str(node), 'link':'http://en.wikipedia.org/wiki/%s' % str(node)}
-        
-    dic['nodes'] = node_dict
 
     edge_dict = {}
     for node in G.nodes():
-        edge_dict[node] = str(G[node])
+        edge_dict[node] = G[node]
 
     dic['edges'] = edge_dict
 

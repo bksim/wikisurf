@@ -1,8 +1,10 @@
 from flask import Flask, render_template, jsonify
 from parse import *
 import networkx as nx
+#from flaskext.csrf import csrf, csrf_exempt
 
 app = Flask(__name__)
+#csrf(app)
 
 @app.route('/')
 def main_page():
@@ -20,4 +22,4 @@ def get_article(article, depth):
 	
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run(debug=True,port=8000)

@@ -136,13 +136,18 @@
 	
 	var article_name = "Computer";
 	var depth = 1;
-	$.getJSON("localhost:5000/" + article_name + "/" + depth.toString(), function(json) 
+
+	$.getJSON("http://localhost:8000/" + article_name + "/" + depth.toString(), function(json) 
 		{
 			var data = json;
+      var g_nodes = json.nodes;
+      var g_edges = json.edges;
+      var graph = {nodes: g_nodes, edges:g_edges};
+      sys.graft(graph);
 		}
 	);
 
-  sys.graft(data);
+  
 
 
     

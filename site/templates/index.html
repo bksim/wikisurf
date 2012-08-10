@@ -2,43 +2,52 @@
    "http://www.w3.org/TR/html4/strict.dtd">
 
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-      <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
-      <div>
-      <h1>wikisurf</h1>
-    </div>
-</head>
-<body>
-    <p>Welcome to wikisurf, a wikipedia visualization.</p>
-	
-	<form action="">
-		Center page: <input type="text" name="page" value="Diamond Bar High School" size="45" id="page"/><br />
-		Depth: <input type="text" name="depth" value="1" id="depth"/>
-	</form>
+	<head>
+		<title>wikisurf</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
+		<div id="top">
+			<h1>wikisurf</h1>
+			<p>Welcome to wikisurf, a wikipedia visualization.<p>
+			<form action="" id="form">
+				Center page: <input type="text" name="page" value="Diamond Bar High School" size="45" id="page"/>
+				Depth: <input type="text" name="depth" value="1" id="depth"/ size="1">
+			</form>
+		</div>
+	</head>
 
-  <canvas id="viewport" width="1000" height="500"></canvas>
+	<body>
+		<div id="wrap">
+			<div id="pagedisplay">
+				<iframe src="http://en.wikipedia.org/wiki/Diamond_Bar_High_School" id="displayframe"></iframe>
+			</div>
+			
+			<div id="graphdisplay">
+				<canvas id="viewport" width="1100px" height="850px"></canvas>
+			</div>
+			
+			<div id="footer">
+				<a href="http://www.brandonksim.com">brandon</a> and <a href="https://github.com/ayzwah">ayzaan</a>
+			</div>
+		</div>
+		
+	  
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
-  <!-- run from the original source files: -->
-  <!-- <script src="../../src/etc.js"></script>
-       <script src="../../src/kernel.js"></script>
-       <script src="../../src/graphics/colors.js"></script>
-       <script src="../../src/graphics/primitives.js"></script>
-       <script src="../../src/graphics/graphics.js"></script>
-       <script src="../../src/tween/easing.js"></script>
-       <script src="../../src/tween/tween.js"></script>
-       <script src="../../src/physics/atoms.js"></script>
-       <script src="../../src/physics/physics.js"></script>
-       <script src="../../src/physics/system.js"></script>
-       <script src="../../src/dev.js"></script> -->
-
-  <!-- run from the minified library file: -->
-  <script src="{{ url_for('static', filename='lib/arbor.js') }}"></script>  
-
-  <script src="{{ url_for('static', filename='main.js') }}"></script>
-
-</body>
-  <footer>Brandon and Ayzaan</footer>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<!-- run from the original source files: -->
+		<!-- <script src="../../src/etc.js"></script>
+		   <script src="../../src/kernel.js"></script>
+		   <script src="../../src/graphics/colors.js"></script>
+		   <script src="../../src/graphics/primitives.js"></script>
+		   <script src="../../src/graphics/graphics.js"></script>
+		   <script src="../../src/tween/easing.js"></script>
+		   <script src="../../src/tween/tween.js"></script>
+		   <script src="../../src/physics/atoms.js"></script>
+		   <script src="../../src/physics/physics.js"></script>
+		   <script src="../../src/physics/system.js"></script>
+		   <script src="../../src/dev.js"></script> -->
+		<!-- run from the minified library file: -->
+		<script src="{{ url_for('static', filename='lib/arbor.js') }}"></script>  
+		<script src="{{ url_for('static', filename='main.js') }}"></script>
+	</body>
 </html>

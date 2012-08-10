@@ -1,6 +1,44 @@
 body{
   margin:0;
-  padding:20px;
+  padding:0px;
   font:12px/17px Arial, sans-serif;
   background:#f9f9f9;
+}
+
+#top{
+  padding:0.5% 0 0 1%;
+}
+
+#wrap {
+  width:100%;
+}
+
+#pagedisplay {
+  float:right;
+  width:40%;
+  height:100%;
+}
+
+#graphdisplay {
+  float:left;
+  width:60%;
+  height:100%;
+}
+
+#footer {
+  border-top-style:solid;
+  border-top-width:1px;
+  border-top-color:#DDDDDD;
+  clear:both;
+  font-size:12px;
+  padding:0.1% 1% 0.1% 1%;
+}	
+
+* html #footer {
+  height:1px;
+}
+
+#displayframe{
+  height:850px;
+  width:100%;
 }

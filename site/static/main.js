@@ -66,7 +66,7 @@
           var w = 10
           ctx.fillStyle = (node.data.alone) ? "orange" : "black"
           ctx.fillRect(pt.x-w/2, pt.y-w/2, w,w)
-		  ctx.font = 'italic 13px sans-serif';
+		  ctx.font = '13px sans-serif';
 		  ctx.fillText(node.name, pt.x+8, pt.y+8);
         })    			
       },
@@ -82,7 +82,6 @@
             var pos = $(canvas).offset();
             _mouseP = arbor.Point(e.pageX-pos.left, e.pageY-pos.top)
             dragged = particleSystem.nearest(_mouseP);
-
             if (dragged && dragged.node !== null){
               // while we're dragging, don't let physics move the node
               dragged.node.fixed = true
@@ -119,9 +118,7 @@
         
         // start listening
         $(canvas).mousedown(handler.clicked);
-
       },
-      
     }
     return that
   }
@@ -149,6 +146,9 @@
 			
 			// now add the new data
 			sys.graft(graph);
+			
+			// change the frame wikipedia data
+			$("#displayframe").replaceWith("<iframe src='http://en.wikipedia.org/wiki/" + article_name.toString() + "' id='displayframe'></iframe>");
 		}
 	);
 	return;

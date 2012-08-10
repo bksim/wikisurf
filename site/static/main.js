@@ -124,33 +124,51 @@
       
     }
     return that
-  }    
-
-  $(document).ready(function(){
-    //var sys = arbor.ParticleSystem(1000, 600, 0.5) // create the system with sensible repulsion/stiffness/friction
-	var sys = arbor.ParticleSystem(1000, 0, 0.5)
-    sys.parameters({gravity:true}) // use center-gravity to make the graph settle nicely (ymmv)
-    sys.renderer = Renderer("#viewport") // our newly created renderer will have its .init() method called shortly by sys...
-	
+  }
+  
+  function getJSON(sys)
+  {
 	// get data variable through an ajax call to URL <article_name>/<depth>
 	
-	var article_name = "Sweet Diss and the Comebacks";
-	var depth = 1;
+	var article_name = $("#page").val();
+	var depth = $("#depth").val();
 
 	$.getJSON("/" + article_name + "/" + depth.toString(), function(json) 
 		{
 			var data = json;
-      var g_edges = json.edges;
-      var graph = {edges:g_edges};
-      console.log(JSON.stringify(g_edges));
-      sys.graft(graph);
+			var g_edges = json.edges;
+			var graph = {edges:g_edges};
+			console.log(JSON.stringify(g_edges));
+			
+			// remove all nodes from graph first (automatically removes edges also)
+			sys.eachNode(function(node,pt) {
+				sys.pruneNode(node);
+			});
+			
+			console.log("graph cleared");
+			
+			// now add the new data
+			sys.graft(graph);
 		}
 	);
-
+	return;
+  }
   
+  $(document).ready(function()
+  {
+	var sys = arbor.ParticleSystem(1000, 0, 0.5)
+    sys.parameters({gravity:true}) // use center-gravity to make the graph settle nicely (ymmv)
+    sys.renderer = Renderer("#viewport") // our newly created renderer will have its .init() method called shortly by sys...
+	
+	getJSON(sys);  
 
-
-    
+	// when enter is pressed
+	$(document).keypress(function(e) {
+		if(e.which == 13) 
+		{
+			//alert('You pressed enter!');
+			getJSON(sys);
+		}
+	});
   })
-
 })(this.jQuery)

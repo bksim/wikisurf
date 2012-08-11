@@ -148,7 +148,7 @@
 			sys.graft(graph);
 			
 			// change the frame wikipedia data
-			$("#displayframe").replaceWith("<iframe src='http://en.wikipedia.org/wiki/" + article_name.toString() + "' id='displayframe'></iframe>");
+			$("#displayframe").replaceWith("<iframe src='http://en.wikipedia.org/w/index.php?title=" + article_name.toString() + "&printable=yes' id='displayframe'></iframe>");
 		}
 	);
 	return;

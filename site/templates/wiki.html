@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+	<head>
+		<title>wikisurf</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
+		<style type="text/css">
+.right
+{
+position:absolute;
+right:0px;
+}
+</style>
+		<div id="top">
+			<h1>wikisurf</h1>
+			<p>Welcome to wikisurf, a wikipedia visualization.<p>
+		</div>
+	</head>
+
+	<body>
+		<div class="right" style="width:50%"><h1>Computer</h1>{{ html |safe}}</div>
+	</body>
+</html>

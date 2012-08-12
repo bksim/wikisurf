@@ -24,7 +24,7 @@ def get_article(article, depth):
 
 	return jsonify(graph_json)
 
-@app.route('/<article>')
+@app.route('/wiki/<article>')
 def embed_wiki_html(article):
 	url_name = "http://en.wikipedia.org/w/api.php?action=mobileview&page=%s&sections=all&format=xml&sectionprop=fromtitle|toclevel|line&notransform=yes" % article
 	page = urllib2.urlopen(url_name)
@@ -32,7 +32,7 @@ def embed_wiki_html(article):
 	list_of_html = soup.find_all('section')
 	html = ''.join(x.string for x in list_of_html)
 
-	return render_template('wiki.html', html=html)
+	return render_template('wiki.html', html=html, title=article)
 
 
 if __name__ == '__main__':

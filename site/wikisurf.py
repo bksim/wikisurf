@@ -29,6 +29,7 @@ def embed_wiki_html(article):
 	url_name = "http://en.wikipedia.org/w/api.php?action=mobileview&page=%s&sections=all&format=xml&sectionprop=fromtitle|toclevel|line&notransform=yes" % article
 	page = urllib2.urlopen(url_name)
 	soup = BeautifulSoup(page, "xml")
+	print soup.prettify()
 	list_of_html = soup.find_all('section')
 	html = ''.join(x.string for x in list_of_html)
 

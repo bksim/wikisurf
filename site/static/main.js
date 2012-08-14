@@ -83,12 +83,17 @@
             _mouseP = arbor.Point(e.pageX-pos.left, e.pageY-pos.top)
             dragged = particleSystem.nearest(_mouseP);
             if (dragged && dragged.node !== null){
+				//alert(dragged.node.name); //test
+				var replacetext = "<input type='text' name='page' value='" + dragged.node.name + "'size='45' id='page'/>"
+				//alert(replacetext);
+				$("#page").replaceWith(replacetext); //replaces with the clicked name
+
               // while we're dragging, don't let physics move the node
               dragged.node.fixed = true
             }
 
-            $(canvas).bind('mousemove', handler.dragged)
-            $(window).bind('mouseup', handler.dropped)
+            //$(canvas).bind('mousemove', handler.dragged)
+            //$(window).bind('mouseup', handler.dropped)
 
             return false
           },
@@ -170,5 +175,12 @@
 			getJSON(sys);
 		}
 	});
+	
+	// when clicked in the viewport
+	$("#viewport").click(function(){
+		//alert("clicked in viewport");
+		getJSON(sys);
+	});
+
   })
 })(this.jQuery)

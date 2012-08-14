@@ -33,7 +33,8 @@ def embed_wiki_html(article):
 	list_of_html = soup.find_all('section')
 	html = ''.join(x.string for x in list_of_html)
 
-	return render_template('wiki.html', html=html, title=article)
+	dic = {'html':html, 'title':article}
+	return jsonify(dic)
 
 
 if __name__ == '__main__':

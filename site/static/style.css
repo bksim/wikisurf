@@ -44,3 +44,9 @@ body{
 #viewport{
   width:100%;
 }
+
+#display
+{
+position:absolute;
+right:0px;
+}

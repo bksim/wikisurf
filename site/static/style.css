@@ -3,6 +3,7 @@ body{
   padding:0px;
   font:12px/17px Arial, sans-serif;
   background:#f9f9f9;
+
 }
 
 #top{
@@ -11,6 +12,7 @@ body{
 
 #wrap {
   width:100%;
+
 }
 
 #pagedisplay {
@@ -21,6 +23,7 @@ body{
 #graphdisplay {
   float:left;
   height:100%;
+  background:#f9f9f9;
 }
 
 #footer {
@@ -43,6 +46,7 @@ body{
 
 #viewport{
   width:100%;
+  background:#f9f9f9;
 }
 
 .display

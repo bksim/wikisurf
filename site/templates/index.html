@@ -8,30 +8,27 @@
 		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
 		<div id="top">
 			<h1>wikisurf</h1>
-			<p>Welcome to wikisurf, a wikipedia visualization.<p>
 			<form action="" id="form">
 				Center page: <input type="text" name="page" value="Diamond Bar High School" size="45" id="page"/>
-				Depth: <input type="text" name="depth" value="1" id="depth"/ size="1">
+				Depth: <input type="text" name="depth" value="1" id="depth" size="1">
 			</form>
 		</div>
 	</head>
 
 	<body>
+
 		<div id="wrap">
-			
+
 				<div class="display" style="width:50%">
 					<h1>Title</h1>
 					html
 				</div>
 			
 			
-			<div id="graphdisplay" style="width:50%">
-				<canvas id="viewport" width="800px" height="850px"></canvas>
+			<div class = "visibleDiv" id="graphdisplay" style="width:50%">
+				<canvas id="viewport" height="850px"></canvas>
 			</div>
 			
-			<div id="footer">
-				<a href="http://www.brandonksim.com">brandon</a> and <a href="http://ayzwah.com">ayzaan</a>
-			</div>
 		</div>
 		
 	  
@@ -53,4 +50,9 @@
 		<script src="{{ url_for('static', filename='lib/arbor.js') }}"></script>  
 		<script src="{{ url_for('static', filename='main.js') }}"></script>
 	</body>
+	<footer>
+			<div id="footer">
+				<a href="http://www.brandonksim.com">brandon</a> and <a href="http://ayzwah.com">ayzaan</a>
+			</div>
+	</footer>
 </html>

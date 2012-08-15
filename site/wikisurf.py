@@ -30,7 +30,7 @@ def embed_wiki_html(article):
 	#url_name = url_name.encode('utf-8')
 	page = urllib.urlopen(url_name)
 	soup = BeautifulSoup(page, "xml")
-	print soup.prettify()
+	#print soup.prettify()
 	list_of_html = soup.find_all('section')
 	html = ''.join(x.string for x in list_of_html)
 

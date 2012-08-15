@@ -152,8 +152,14 @@
 			// now add the new data
 			sys.graft(graph);
 			
+      var content = $.getJSON("/wiki/"+ article_name, function(html_json){
+
+        $(".display").replaceWith("<div class=\"display\" style=\"width:50%\"><h1>"+html_json.title.toString()+"</h1>" + html_json.html.toString()+"</div>");
+
+
+      });
 			// change the frame wikipedia data
-			$("#displayframe").replaceWith("<iframe src='http://en.wikipedia.org/w/index.php?title=" + article_name.toString() + "&printable=yes' id='displayframe'></iframe>");
+			
 		}
 	);
 	return;

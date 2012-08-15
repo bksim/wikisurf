@@ -4,7 +4,7 @@ from parse import *
 import networkx as nx
 from flaskext.csrf import csrf, csrf_exempt
 from bs4 import BeautifulSoup
-import urllib2
+import urllib
 
 app = Flask(__name__)
 
@@ -26,8 +26,9 @@ def get_article(article, depth):
 
 @app.route('/wiki/<article>')
 def embed_wiki_html(article):
-	url_name = "http://en.wikipedia.org/w/api.php?action=mobileview&page=%s&sections=all&format=xml&sectionprop=fromtitle|toclevel|line&notransform=yes" % article
-	page = urllib2.urlopen(url_name)
+	url_name = "http://en.wikipedia.org/w/api.php?action=mobileview&page="+article.encode('utf-8')+"&sections=all&format=xml&sectionprop=fromtitle|toclevel|line&notransform=yes"
+	url_name = url_name.encode('utf-8')
+	page = urllib.urlopen(url_name)
 	soup = BeautifulSoup(page, "xml")
 	print soup.prettify()
 	list_of_html = soup.find_all('section')

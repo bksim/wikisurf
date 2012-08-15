@@ -30,14 +30,11 @@ def get_graph(center, depth):
     else:        
         url_name = "http://en.wikipedia.org/w/api.php?action=query&titles=" + \
                     center + "&prop=links&pllimit=500&format=xml"
-        
 
         #For local testing because my urllib times out
         #url_name = 'http://localhost:8000/com.xml/'
-        print('Loaded URL')
         # note: max pllimit (links to return) of 500 allowed
         connection = urllib.urlopen(url_name)
-        print('url open')
         doc = minidom.parse(connection)
         connection.close()
         

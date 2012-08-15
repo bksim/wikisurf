@@ -20,7 +20,7 @@ def get_article(article, depth):
 	graph_depth = int(depth)
 
 	graph = get_graph(center_page_title, graph_depth)
-	graph_json = output_arbor_json(graph)
+	graph_json = output_d3_json(graph)
 
 	return jsonify(graph_json)
 

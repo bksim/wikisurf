@@ -60,3 +60,16 @@ def output_arbor_json(G):
     dic['edges'] = edge_dict
 
     return dic
+
+def output_d3_json(G):
+    node_list=[]
+    edge_list = []
+    count = 0
+    for node in G.nodes():
+        node_list.append({'value':node})
+        item_count = 0
+        for item in G[node]:
+            edge_list.append({'source':count,'target':item_count})
+            item_count+=1
+        count +=1
+    return {'nodes':node_list,'edges':edge_list}

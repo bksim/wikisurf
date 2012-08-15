@@ -6,17 +6,41 @@
 		<title>wikisurf</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
-		<div id="top">
-			<h1>wikisurf</h1>
-			<form action="" id="form">
-				Center page: <input type="text" name="page" value="Diamond Bar High School" size="45" id="page"/>
-				Depth: <input type="text" name="depth" value="1" id="depth" size="1">
-			</form>
-		</div>
+    <script type="text/javascript" src="https://raw.github.com/mbostock/d3/master/d3.v2.js"></script>
+
+
+
+    <style type="text/css">
+
+circle.node {
+  stroke-width: 1px;
+}
+
+line.link {
+  stroke: #999;
+}
+
+    </style>
 	</head>
 
 	<body>
-
+		<div id="left" style="width:50%">
+			<div>
+			<div id="top">
+				<h1>wikisurf</h1>
+				<form action="" id="form">
+					Center page: <input type="text" name="page" value="Diamond Bar High School" size="45" id="page"/>
+					Depth: <input type="text" name="depth" value="1" id="depth" size="1">
+				</form>
+			</div>
+			<div class = "visibleDiv" id="graphdisplay" >
+				
+			</div>
+		</div>
+			<div id="footer">
+				<a href="http://www.brandonksim.com">brandon</a> and <a href="http://ayzwah.com">ayzaan</a>
+			</div>
+		</div>
 		<div id="wrap">
 
 				<div class="display" style="width:50%">
@@ -25,34 +49,122 @@
 				</div>
 			
 			
-			<div class = "visibleDiv" id="graphdisplay" style="width:50%">
-				<canvas id="viewport" height="850px"></canvas>
-			</div>
+
 			
 		</div>
 		
 	  
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-		<!-- run from the original source files: -->
-		<!-- <script src="../../src/etc.js"></script>
-		   <script src="../../src/kernel.js"></script>
-		   <script src="../../src/graphics/colors.js"></script>
-		   <script src="../../src/graphics/primitives.js"></script>
-		   <script src="../../src/graphics/graphics.js"></script>
-		   <script src="../../src/tween/easing.js"></script>
-		   <script src="../../src/tween/tween.js"></script>
-		   <script src="../../src/physics/atoms.js"></script>
-		   <script src="../../src/physics/physics.js"></script>
-		   <script src="../../src/physics/system.js"></script>
-		   <script src="../../src/dev.js"></script> -->
-		<!-- run from the minified library file: -->
-		<script src="{{ url_for('static', filename='lib/arbor.js') }}"></script>  
-		<script src="{{ url_for('static', filename='main.js') }}"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>  
+	 <script type="text/javascript">
+ /* Create graph data */
+        
+
+		var article_name = $("#page").val();
+		var depth = $("#depth").val();
+        var json_url = "/" + article_name + "/" + depth.toString();
+
+        var links = [];
+        var nodes = [];
+
+        console.log(json_url.toString());
+        d3.json(json_url, function(json){
+
+        	console.log(JSON.stringify(json));
+
+        	links = json.edges;
+        	nodes = json.nodes;
+
+        	var w = 850,
+    			h = 850,
+    			r = 8;
+    		var labelDistance = 0;
+
+        
+        //nodes.forEach(function(d, i) { d.x = d.y = w / size * i});
+
+        var svg = d3.select('div.visibleDiv').append("svg")
+                    .attr("viewBox" , "0 0 " + w + " " +h);
+    var force = d3.layout.force()
+    .gravity(.0)
+    .distance(10)
+    .charge(-3500)
+    .size([w, h]);
+  
+  force
+      .nodes(nodes)
+      .links(links)
+      .start();
+  
+  var link = svg.selectAll(".link")
+      .data(links)
+    .enter().append("svg:line")
+      .attr("class", "link")
+
+  
+    var node = svg.selectAll(".node")
+      .data(nodes)
+       .attr("r", r - .75)
+    .enter().append("g")
+      .attr("class", "node")
+      .call(force.drag);
+
+
+  // var node = svg.selectAll("circle.node")
+  //     .data(json.nodes)
+  //   .enter().append("svg:circle")
+  //     .attr("class", "node")
+  //     .attr("cx", function(d) { return d.x; })
+  //     .attr("cy", function(d) { return d.y; })
+  //     .attr("r", function(d) { return r(d.textContent) || 5; })
+  //     .call(force.drag);
+
+    node.append("image")
+      .attr("xlink:href", "http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png")
+      .attr("x", -8)
+      .attr("y", -8)
+      .attr("width", 16)
+      .attr("height", 16);
+
+  node.append("text")
+      .attr("dx", 12)
+      .attr("dy", ".35em")
+      .text(function(d) { return d.value });
+
+
+  force.on("tick", function() {
+    nodes[8].x = w / 2 - 100;
+    nodes[8].y = h / 2 ;
+
+	node.attr("cx", function(d) { return d.x = Math.max(0, Math.min(w - (r+50), d.x)); })
+        .attr("cy", function(d) { return d.y = Math.max(r, Math.min(h, d.y)); })
+        .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+
+    link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+  
+   
+  });
+        });
+
+
+	      var content = $.getJSON("/wiki/"+ article_name, function(html_json){
+
+        $(".display").replaceWith("<div class=\"display\" style=\"width:50%\"><h1>"+html_json.title.toString()+"</h1>" + html_json.html.toString()+"</div>");
+
+
+      });
+
+
+  
+
+
+    </script>
 	</body>
 	<footer>
-			<div id="footer">
-				<a href="http://www.brandonksim.com">brandon</a> and <a href="http://ayzwah.com">ayzaan</a>
-			</div>
+
 	</footer>
 </html>

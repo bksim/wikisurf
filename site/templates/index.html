@@ -25,9 +25,9 @@
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
-          <a class="brand" href="#">Wikisurf</a>
+          <a class="brand" href="/">Wikisurf</a>
                       <form class="navbar-search" action="" id="form">
-               <input type="text" name="page" value="Diamond Bar High School" size="45" id="page" />
+               <input type="text" name="page" value="{{ article }}" size="45" id="page" />
                Depth: <input type="text" name="depth" value="1" id="depth" size="1" />
             </form>
         </div>
@@ -44,8 +44,8 @@
             <div class="span6">
             <div id="wrap">
                <div class="display">
-                  <h1>Title</h1>
-                  html
+                  <h1></h1>
+                  
                </div>
             </div>
           </div>
@@ -112,10 +112,10 @@
          
          var anchorNode = vis.selectAll("g.anchorNode").data(force2.nodes()).enter().append("svg:g").attr("class", "anchorNode");
          anchorNode.append("svg:circle").attr("r", 0).style("fill", "#FFF");
-         anchorNode.append("svg:text").text(function(d, i) {
+         anchorNode.append("svg:a").attr("xlink:href", function(d) { return '/wiki/' + d.node.label; }).append("svg:text").text(function(d, i) {
          return i % 2 == 0 ? "" : d.node.label
          }).style("fill", "#555").style("font-family", "Arial").style("font-size", 12);
-         
+
          var updateLink = function() {
          this.attr("x1", function(d) {
            return d.source.x;
@@ -172,9 +172,9 @@
          });
          
          
-         var content = $.getJSON("/wiki/"+ article_name, function(html_json){
+         var content = $.getJSON("/html/"+ article_name, function(html_json){
          
-          $(".display").replaceWith("<div class=\"display\"><h1>"+html_json.title.toString()+"</h1>" + html_json.html.toString()+"</div>");
+          $(".display").replaceWith("<div class=\"display\"><h1>"+html_json.title.toString().replace('_', ' ')+"</h1>" + html_json.html.toString()+"</div>");
          
          
          });

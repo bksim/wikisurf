@@ -11,7 +11,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def main_page():
-	return render_template('index.html')
+	return render_template('index.html', article="Diamond Bar High School")
+
+@app.route('/wiki/<article_name>')
+def article(article_name):
+	return render_template('index.html', article=article_name.replace('_', ' '))
 
 @csrf_exempt
 @app.route('/<article>/<depth>')
@@ -24,7 +28,7 @@ def get_article(article, depth):
 
 	return jsonify(graph_json)
 
-@app.route('/wiki/<article>')
+@app.route('/html/<article>')
 def embed_wiki_html(article):
 	url_name = "http://en.wikipedia.org/w/api.php?action=mobileview&page="+article.encode('utf-8')+"&sections=all&format=xml&sectionprop=fromtitle|toclevel|line&notransform=yes"
 	#url_name = url_name.encode('utf-8')
